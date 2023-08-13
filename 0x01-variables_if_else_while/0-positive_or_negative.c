@@ -5,7 +5,7 @@
 /**
  * main - Entry
  *
- * Description: true or false validation
+ * Description: false or true validation
  *
  * Return : 0 (Success)
 */
