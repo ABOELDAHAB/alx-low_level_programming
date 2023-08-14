@@ -17,7 +17,7 @@ int main(void)
 		i = n;
 		while (i <= 99)
 		{
-			if (n != i && n)
+			if (n != i)
 			{
 				putchar((n / 10) + 48);
 				putchar((n % 10) + 48);
@@ -28,7 +28,7 @@ int main(void)
 				if (n != 98 || i != 99)
 				{
 					putchar(',');
-					putchar(' ');
+					putchar(' ')i;
 				}
 			}
 			i++;
