@@ -11,10 +11,10 @@
 int main(void)
 {
 	int n = 0;
-	int i = 0;
+	int i;
 
 	while (n <= 9)
-	{
+		i = 0;
 		while (i <= 9)
 		{
 			if (n != i && n < i)
@@ -28,7 +28,7 @@ int main(void)
 					putchar(' ');
 				}
 			}
-		i++;
+			i++;
 		}
 		n++;
 	}
