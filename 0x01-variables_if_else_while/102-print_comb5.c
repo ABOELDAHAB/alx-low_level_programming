@@ -28,7 +28,7 @@ int main(void)
 				if (n != 98 || i != 99)
 				{
 					putchar(',');
-					putchar(' ')i;
+					putchar(' ');
 				}
 			}
 			i++;
