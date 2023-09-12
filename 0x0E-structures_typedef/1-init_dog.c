@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 /**
  * init_dog - function that initialize data for members
  * @struct dog - structure
