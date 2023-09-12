@@ -1,5 +1,5 @@
-#include "dog.h"
-#include <stdlib.h>
+#include "stdlib.h"
+#include <dog.h>
 
 /**
  * _strlen - function
@@ -28,9 +28,8 @@ char *_strcopy(char *des, char *sr)
 	int i;
 
 	for (i = 0; sr[i]; i++)
-	{
+	
 		des[i] = sr[i];
-	}
 	des[i] = '\0';
 	return (des);
 }
