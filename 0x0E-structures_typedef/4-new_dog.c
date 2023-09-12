@@ -17,8 +17,8 @@ int _strlen(const char *s)
 
 /**
  * _strcopy - function
- * @sr: string
- * @des: copying string
+ * @src: string
+ * @dest: copying string
  * Return: dest
  */
 char *_strcopy(char *dest, char *src)
