@@ -10,17 +10,17 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int k = i;
+	int i = n;
 	va_list ap;
 
-	if (!i)
+	if (!n)
 	{
 		printf("\n");
 		return;
 	}
-	va_start(ap, i);
-	while (k--)
+	va_start(ap, n);
+	while (i--)
 		printf("%d%s", va_arg(ap, int),
-				k ? (separator ? separator : "") : "\n");
+			i ? (separator ? separator : "") : "\n");
 	va_end(ap);
 }
