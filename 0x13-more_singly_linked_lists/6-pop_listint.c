@@ -3,8 +3,8 @@
 /**
  * pop_listint - func
  * @head: param
- * Return: value
-*/
+ * Return: 0
+ */
 int pop_listint(listint_t **head)
 {
 	listint_t *k;
