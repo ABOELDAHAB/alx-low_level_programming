@@ -3,7 +3,7 @@
 /**
  * sum_listint - fun
  * @head: param
- * Return : 0
+ * Return: 0
 */
 int sum_listint(listint_t *head)
 {
