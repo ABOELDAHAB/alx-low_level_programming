@@ -12,7 +12,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	listint_t *k = malloc(sizeof(listint_t));
 	listint_t *l;
 
-	if (!head || k)
+	if (!head || !k)
 		return (NULL);
 
 	k->next = NULL;
